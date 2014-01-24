@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'Sparkle.framework'
 
   s.license      = { :type => 'Copyright', :file => 'Extras/Source Code/License.txt' }
+  s.frameworks = 'Sparkle'
   s.resources = 'Sparkle.framework'
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/Sparkle"' }
 end
