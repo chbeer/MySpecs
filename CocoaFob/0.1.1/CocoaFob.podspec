@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source_files  =  ['objc/CFobLicVerifier.{h,m}','objc/CFobError.{h,m}','objc/decoder.{h,c}', 'objc/NSString-Base64Extensions.{h,m}','objc/NSString+PECrypt.{h,m}']
   s.exclude_files =  ['objc/CocoaFobTests/**/*','objc/pxlic.m']
   s.platform      = :osx
-  s.frameworks    = 'libcrypto'
+  s.libraries    = 'libcrypto'
 
   s.description = <<-DESC
     A set of registration code generation and verification helpers for Obj-C, Ruby (Potion Store), PHP and FastSpring. Stripped down variant, it only uses files needed, does not load whole bunch.
