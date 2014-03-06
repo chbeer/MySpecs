@@ -1,9 +1,3 @@
-#
-# Be sure to run `pod spec lint CBUIKit.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about the attributes see http://docs.cocoapods.org/specification.html
-#
 Pod::Spec.new do |s|
   s.name         = "CBUIKit"
   s.version      = "1.0.0"
@@ -11,8 +5,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/chbeer/CBUIKit"
   s.license      = 'MIT'
   s.author       = { "Christian Beer" => "christian.beer@chbeer.de" }
-  s.source       = { :git => "http://github.com/chbeer/CBUIKit.git", :tag => "1.0.0" }
-  s.platform     = :ios
+  s.source       = { :git => "https://github.com/chbeer/CBUIKit.git", :tag => "1.0.0" }
+  s.platform     = :ios, '6.0'
   s.source_files = 'Classes', 'Classes/**/*.{h,m}'
   s.requires_arc = true
 end
