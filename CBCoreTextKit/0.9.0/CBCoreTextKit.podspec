@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.7'
 
   s.source_files = 'CBCoreTextKit', 'CBCoreTextKit/**/*.{h,m}'
-  s.osx.exclude_files = 'Classes/**/*UIKit*.{h,m}'
+  s.osx.exclude_files = 'CBCoreTextKit/**/*UIKit*.{h,m}'
   s.requires_arc = true
 end
