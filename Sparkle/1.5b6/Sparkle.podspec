@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "A software update framework for the Mac"
   s.homepage     = "http://sparkle.andymatuschak.org/"
   s.author       = 'Andy Matuschak'
-  s.source       = { :http => "http://sparkle.andymatuschak.org/files/Sparkle%201.5b6.zip" }
+  s.source       = { :http => "http://sparkle-project.org/files/Sparkle%201.5b6.zip" }
   s.platform     = :osx
 
   s.source_files = 'Sparkle.framework/Versions/A/Headers/*.h'
